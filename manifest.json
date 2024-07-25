@@ -5,4 +5,5 @@
     "display": "standalone",
     "background_color": "#FFFFFF",
     "theme_color": "#000000",
+    "icons": "",
 }
