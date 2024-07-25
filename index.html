@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Vertex+</title>
+    <link rel="stylesheet" href="new2.css/new1.css">
+	<link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <header class="logo">
+        <h1 align="center" class="f12">Vertex+</h1>
+        <h1 align="center" class="f2">Архитектурное бюро. Студия дизайна</h1>
+        
+        <nav class="header_nav">
+            <ul class="header_list">
+                <li><a href="reviews.html">Отзывы</a></li>
+                <li><a href="about.html">О нас</a></li>
+            </ul>
+            <a href="forms.html" class="btn1">Расчитать стоимость</a>
+        </nav>
+    </header>
+
+    <section class="gallery">
+        <h2 align="center" class="f1">Наши проекты</h2>
+        <div class="gallery_container">
+            <!-- Add the rest of the images -->
+            <div class="gallery_item">
+                <img src="https://vltrakt.ru/upload/resize_cache/iblock/7af/1920_1080_1/eefm667if4m2296cx11gti8qzhijcne7.jpg" alt="Проект 1">
+                <p>Современный жилой комплекс</p>
+            </div>
+            <div class="gallery_item">
+                <img src="https://fulcrum-spb.ru/upload/iblock/a7f/imz8z1teqq8nf4phw9ip7wm97v3pr2fn.jpg" alt="Проект 2">
+                <p>Офисное здание в центре города</p>
+            </div>
+            <div class="gallery_item">
+                <img src="https://static.mk.ru/upload/entities/2019/09/04/13/articles/facebookPicture/93/e0/a8/68/abdcdc8a653df45f2eb594485ba8eb4f.jpg" alt="Проект 3">
+                <p>Инновационный образовательный центр</p>
+            </div>
+            <div class="gallery_item">
+                <img src="https://retailers.ua/media/news/1100-s-crop-w/00/06/6565/C03-11790.jpg" alt="Проект 4">
+                <p>Торгово-развлекательный комплекс</p>
+            </div>
+            <div class="gallery_item">
+                <img src="https://avatars.dzeninfra.ru/get-zen_doc/3645545/pub_5f42c0a9feee9a1c2fcdd16f_5f42c0f5d222d84099d9fca0/scale_1200" alt="Проект 5">
+                <p>Эко-отель на природе</p>
+            </div>
+            <div class="gallery_item">
+                <img src="https://colodu.club/uploads/posts/2022-11/1667258834_18-colodu-club-p-promishlennii-loft-pinterest-18.jpg" alt="Проект 6">
+                <p>Лофт в историческом здании</p>
+            </div>
+            <div class="gallery_item">
+                <img src="https://bigfoto.name/uploads/posts/2022-01/1642247873_20-bigfoto-name-p-zagorodnii-dom-v-sovremennom-stile-33.jpg" alt="Проект 7">
+                <p>Загородный дом</p>
+            </div>
+            <div class="gallery_item">
+                <img src="https://v-georgia.com/wp-content/uploads/2015/06/4546363.jpg" alt="Проект 8">
+                <p>Музей современного искусства</p>
+            </div>
+            <div class="gallery_item">
+                <img src="https://mykaleidoscope.ru/uploads/posts/2020-02/1582377674_43-p-geoplastika-v-landshaftnom-dizaine-97.jpg" alt="Проект 9">
+                <p>Парк с инновационным ландшафтом</p>
+            </div>
+        </div>
+    </section>
+	 <section class="services"> 
+        <h2 align="center" class="f1">Услуги и цены</h2> 
+        <div class="services_container"> 
+            <div class="service_item"> 
+                <h3>Проектирование жилых зданий</h3> 
+                <p>От 5000 руб/м²</p> 
+            </div> 
+            <div class="service_item"> 
+                <h3>Дизайн интерьера</h3> 
+                <p>От 3000 руб/м²</p> 
+            </div> 
+            <div class="service_item"> 
+                <h3>Ландшафтный дизайн</h3> 
+                <p>От 4000 руб/м²</p> 
+            </div> 
+            <div class="service_item"> 
+                <h3>Проектирование общественных зданий</h3> 
+                <p>От 6000 руб/м²</p> 
+            </div> 
+            <div class="service_item"> 
+                <h3>Ремонт и отделка</h3> 
+                <p>От 2000 руб/м²</p>
+			</div> 
+            <div class="service_item"> 
+                <h3>Авторский надзор</h3> 
+                <p>От 10000 руб/мес</p> 
+            </div> 
+        </div> 
+    </section> 
+ <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/service-worker.js')
+                .then(registration => {
+                    console.log('Сервис-воркер зарегистрирован с областью:', registration.scope);
+                })
+                .catch(error => {
+                    console.log('Регистрация сервис-воркера не удалась:', error);
+                });
+        }
+    </script>
+</body>
+</html>
